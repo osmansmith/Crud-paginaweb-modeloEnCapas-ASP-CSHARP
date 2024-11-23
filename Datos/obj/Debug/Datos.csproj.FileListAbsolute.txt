@@ -1,6 +1,6 @@
-C:\Users\OsmanSmith\Desktop\WebApplication1\Datos\bin\Debug\Datos.dll
-C:\Users\OsmanSmith\Desktop\WebApplication1\Datos\bin\Debug\Datos.pdb
-C:\Users\OsmanSmith\Desktop\WebApplication1\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
-C:\Users\OsmanSmith\Desktop\WebApplication1\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
-C:\Users\OsmanSmith\Desktop\WebApplication1\Datos\obj\Debug\Datos.dll
-C:\Users\OsmanSmith\Desktop\WebApplication1\Datos\obj\Debug\Datos.pdb
+C:\Users\OsmanSmith\source\repos\Datos\bin\Debug\Datos.dll
+C:\Users\OsmanSmith\source\repos\Datos\bin\Debug\Datos.pdb
+C:\Users\OsmanSmith\source\repos\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\OsmanSmith\source\repos\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\OsmanSmith\source\repos\Datos\obj\Debug\Datos.dll
+C:\Users\OsmanSmith\source\repos\Datos\obj\Debug\Datos.pdb

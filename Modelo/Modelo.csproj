@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D8AD694-221C-4BA9-99A3-5F9E3BFD3618}</ProjectGuid>
+    <ProjectGuid>{10883877-3834-499E-B29B-F5CC1479A7D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Modelo</RootNamespace>
@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj">
-      <Project>{6e35a5f1-2c3b-4413-9225-4690c93f2782}</Project>
+      <Project>{4467c3eb-a80b-422d-a696-2f9a298d7ce0}</Project>
       <Name>Datos</Name>
     </ProjectReference>
   </ItemGroup>

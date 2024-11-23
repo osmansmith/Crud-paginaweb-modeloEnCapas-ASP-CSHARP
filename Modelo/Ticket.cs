@@ -1,6 +1,8 @@
-﻿
-using Datos;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Modelo
 {
@@ -9,13 +11,13 @@ namespace Modelo
         public string Id { get; set; }
         public Cliente Cliente { get; set; }
         public string Producto { get; set; }
-        public string Descripción { get; set; }
+        public string Descripcion { get; set; }
         public string Estado { get; set; }
-        private DateTime _createdAt { get; set; } = DateTime.Now;
+        private DateTime CreatedAt_ { get; set; } = DateTime.Now;
 
-        public DateTime getCreatedAt()
+        public DateTime GetCreatedAt()
         {
-            return _createdAt;
+            return CreatedAt_;
         }
     }
 }

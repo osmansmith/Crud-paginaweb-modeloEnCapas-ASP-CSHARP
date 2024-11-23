@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MPSite.master.cs" Inherits="WebApplication1.MPSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PeCe´s</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <td><img alt="" src="../static/peces.png" width="100"/></td>
+                    <td>
+                        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Ticket/CrearTicket.aspx" Text="Agregar Ticket" Value="Agregar Ticket"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Ticket/ListarTicket.aspx" Text="Listar Todos" Value="Listar Todos"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu> 
+                    </td>
+                    
+                </tr>
+               <tr>
+                    <td>
+                        <asp:Label ID="lblFiltro" runat="server" Text="Ingresar filtro:"></asp:Label>
+                        <asp:TextBox ID="txtFiltro" runat="server" Text=""></asp:TextBox>
+                        <asp:Button ID="btnFiltrar" runat="server" Text="Buscar" OnClick="btnFiltrar_Click"/>
+                    </td>
+                </tr>
+            </table>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            
+        </div>
+    </form>
+    
+</body>
+</html>
