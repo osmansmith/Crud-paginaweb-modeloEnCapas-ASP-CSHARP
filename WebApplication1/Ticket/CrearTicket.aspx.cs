@@ -20,7 +20,7 @@ namespace WebApplication1.Ticket
                 Modelo.Ticket ticket = new Modelo.Ticket()
                 {
                     Producto = txtProducto.Text,
-                    Descripcion = txtDescripción.Text,
+                    Descripcion = txtDescripcion.Text,
                     Estado = txtEstado.Text
                 };
                 if (txtRazonSocial.Text != "")
@@ -63,6 +63,57 @@ namespace WebApplication1.Ticket
             {
                 divRazonSocial.Visible = false;
             }
+        }
+        protected void cvMinLenNombre_ServerValidate(object source, ServerValidateEventArgs args)
+        {            
+            try
+            {
+                string nombre = args.Value;
+
+                if (nombre.Length >= 5)
+                    args.IsValid = true;
+                else
+                    args.IsValid = false;
+            }
+            catch (Exception)
+            {
+                args.IsValid = false;
+            }
+
+        }
+        protected void cvMinLenProducto_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            try
+            {
+                string nombre = args.Value;
+
+                if (nombre.Length >= 10)
+                    args.IsValid = true;
+                else
+                    args.IsValid = false;
+            }
+            catch (Exception)
+            {
+                args.IsValid = false;
+            }
+
+        }
+        protected void cvMinLenDescripcion_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            try
+            {
+                string nombre = args.Value;
+
+                if (nombre.Length >= 10)
+                    args.IsValid = true;
+                else
+                    args.IsValid = false;
+            }
+            catch (Exception)
+            {
+                args.IsValid = false;
+            }
+
         }
     }
 }
