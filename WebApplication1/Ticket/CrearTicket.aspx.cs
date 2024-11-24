@@ -16,7 +16,9 @@ namespace WebApplication1.Ticket
         }
         protected void AgregarTicket(object sender, EventArgs e)
         {
-           
+            if (Page.IsValid)
+            {
+
                 Modelo.Ticket ticket = new Modelo.Ticket()
                 {
                     Producto = txtProducto.Text,
@@ -35,7 +37,8 @@ namespace WebApplication1.Ticket
                     };
                     ticket.Cliente = empresa;
                 }
-                else {
+                else
+                {
 
                     Modelo.PersonaNatural personaNatural = new Modelo.PersonaNatural()
                     {
@@ -48,9 +51,9 @@ namespace WebApplication1.Ticket
                     ticket.Cliente = personaNatural;
                 }
                 string message = Modelo.TicketController.Create(ticket);
-              
+
                 Response.Redirect($"~/Ticket/ListarTicket.aspx?message={message}");
-            
+            }
         }
 
         protected void DdlTipo_SelectedIndexChanged(object sender, EventArgs e)

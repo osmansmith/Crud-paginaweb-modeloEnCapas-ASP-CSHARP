@@ -28,15 +28,18 @@ namespace WebApplication1.Ticket
 
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
-            string id = lblIdValue.Text;
-            string telefono = txtTelefonoValue.Text;
-            string email = txtEmailValue.Text;
-            string producto = txtProductoValue.Text;
-            string descripcion = txtDescripcionValue.Text;
+            if (Page.IsValid)
+            {
+                string id = lblIdValue.Text;
+                string telefono = txtTelefonoValue.Text;
+                string email = txtEmailValue.Text;
+                string producto = txtProductoValue.Text;
+                string descripcion = txtDescripcionValue.Text;
 
-            string message = TicketController.Update(id,telefono,email,producto,descripcion);
+                string message = TicketController.Update(id, telefono, email, producto, descripcion);
 
-            Response.Redirect($"~/Ticket/ListarTicket.aspx?message={message}");
+                Response.Redirect($"~/Ticket/ListarTicket.aspx?message={message}");
+            }
         }
 
             private void CargarRegistro(string id)
@@ -76,6 +79,40 @@ namespace WebApplication1.Ticket
             {
                 lblMessage.Text = $"Ticket n° {id} no encontrado";
             }
+        }
+        protected void cvMinLenProductoValue_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            try
+            {
+                string nombre = args.Value;
+
+                if (nombre.Length >= 10)
+                    args.IsValid = true;
+                else
+                    args.IsValid = false;
+            }
+            catch (Exception)
+            {
+                args.IsValid = false;
+            }
+
+        }
+        protected void cvMinLenDescripcionValue_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            try
+            {
+                string nombre = args.Value;
+
+                if (nombre.Length >= 10)
+                    args.IsValid = true;
+                else
+                    args.IsValid = false;
+            }
+            catch (Exception)
+            {
+                args.IsValid = false;
+            }
+
         }
     }
 }
