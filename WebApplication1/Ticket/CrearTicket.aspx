@@ -53,7 +53,7 @@
                 </tr>
                 <tr>
                    <td><asp:Label ID="lblRut" runat="server" Text="Ingrese Rut"></asp:Label></td>            
-                   <td><asp:TextBox ID="txtRut" runat="server" placeholder="12345678-9" Text=""></asp:TextBox></td>
+                   <td><asp:TextBox ID="txtRut" runat="server" placeholder="Ingrese su RUT sin puntos (ej: 12345678-9)" /></td>
                    <td>
                        <asp:RequiredFieldValidator 
                             ID="rfvRut" 
@@ -64,12 +64,11 @@
                             ErrorMessage="Rut es obligatorio" />
                        <asp:RegularExpressionValidator 
                            ID="revRut" 
-                           runat="server" 
-                           Text="*"
+                           runat="server"
                            ControlToValidate="txtRut"
                            ValidationGroup="vgCrearTicket"
-                           ValidatorExpression="^(\d{8,9}-[\dkK])$"
-                           ErrorMessage="Rut no tiene el formato esperado" />
+                           ErrorMessage="Formato invalido. ej: 12345678-9"
+                           ValidationExpression="^\d{7,8}-\d{1}$" />
                    </td>
                 </tr>
                  <tr>
@@ -96,14 +95,11 @@
                              ControlToValidate="txtEmail"
                              ValidationGroup="vgCrearTicket"
                              ErrorMessage="Email es obligatorio" />
-                         <asp:RegularExpressionValidator 
-                             ID="revEmail" 
-                             runat="server" 
-                             Text="*"
-                             ControlToValidate="txtEmail"
+                         <asp:RegularExpressionValidator ID="revEmail" runat="server"
+                                 ControlToValidate="txtEmail"
                              ValidationGroup="vgCrearTicket"
-                             ValidatorExpression="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
-                             ErrorMessage="Email no tiene el formato esperado" />
+                                 ErrorMessage="Correo invalido,ej: nombre@ejemplo.com"
+                                 ValidationExpression="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" />
                     </td>
                  </tr>
                 <tr>

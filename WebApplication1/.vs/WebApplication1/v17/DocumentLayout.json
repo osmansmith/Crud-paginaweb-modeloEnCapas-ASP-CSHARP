@@ -11,6 +11,18 @@
       "RelativeMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|solutionrelative:ticket\\crearticket.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|c:\\users\\osmansmith\\desktop\\peces\\crud-paginaweb-modeloencapas-asp-csharp\\webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|c:\\users\\osmansmith\\desktop\\peces\\crud-paginaweb-modeloencapas-asp-csharp\\webapplication1\\ticket\\editarticket.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|solutionrelative:ticket\\editarticket.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|c:\\users\\osmansmith\\desktop\\peces\\crud-paginaweb-modeloencapas-asp-csharp\\webapplication1\\ticket\\editarticket.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|solutionrelative:ticket\\editarticket.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|c:\\users\\osmansmith\\desktop\\peces\\crud-paginaweb-modeloencapas-asp-csharp\\webapplication1\\mpsite.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12C7847-F66E-42A7-BA34-298D3044C9CF}|WebApplication1.csproj|solutionrelative:mpsite.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,8 +42,47 @@
       "DocumentGroups": [
         {
           "DockedHeight": 377,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-24T00:49:22.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditarTicket.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Ticket\\EditarTicket.aspx.cs",
+              "RelativeDocumentMoniker": "Ticket\\EditarTicket.aspx.cs",
+              "ToolTip": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Ticket\\EditarTicket.aspx.cs",
+              "RelativeToolTip": "Ticket\\EditarTicket.aspx.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwCkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:58:20.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditarTicket.aspx",
+              "DocumentMoniker": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Ticket\\EditarTicket.aspx",
+              "RelativeDocumentMoniker": "Ticket\\EditarTicket.aspx",
+              "ToolTip": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Ticket\\EditarTicket.aspx",
+              "RelativeToolTip": "Ticket\\EditarTicket.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-23T23:46:00.128Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,7 +91,7 @@
               "RelativeDocumentMoniker": "Ticket\\CrearTicket.aspx.cs",
               "ToolTip": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Ticket\\CrearTicket.aspx.cs",
               "RelativeToolTip": "Ticket\\CrearTicket.aspx.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAwEgAAAAjAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T22:59:44.561Z",
               "EditorCaption": ""
@@ -60,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MPSite.Master.cs",
               "DocumentMoniker": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\MPSite.Master.cs",
               "RelativeDocumentMoniker": "MPSite.Master.cs",
@@ -73,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MPSite.Master",
               "DocumentMoniker": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\MPSite.Master",
               "RelativeDocumentMoniker": "MPSite.Master",
@@ -86,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ListarTicket.aspx.cs",
               "DocumentMoniker": "C:\\Users\\OsmanSmith\\Desktop\\Peces\\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\\WebApplication1\\Ticket\\ListarTicket.aspx.cs",
               "RelativeDocumentMoniker": "Ticket\\ListarTicket.aspx.cs",

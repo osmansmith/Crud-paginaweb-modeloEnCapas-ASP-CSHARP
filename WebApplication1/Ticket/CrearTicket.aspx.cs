@@ -88,9 +88,9 @@ namespace WebApplication1.Ticket
         {
             try
             {
-                string nombre = args.Value;
+                string producto = args.Value;
 
-                if (nombre.Length >= 10)
+                if (producto.Length >= 10)
                     args.IsValid = true;
                 else
                     args.IsValid = false;
@@ -105,9 +105,9 @@ namespace WebApplication1.Ticket
         {
             try
             {
-                string nombre = args.Value;
+                string descripcion = args.Value;
 
-                if (nombre.Length >= 10)
+                if (descripcion.Length >= 10)
                     args.IsValid = true;
                 else
                     args.IsValid = false;
