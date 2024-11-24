@@ -170,6 +170,5 @@
     <asp:ValidationSummary 
         ID="vsErrors" 
         runat="server" 
-        ValidationGroup="vgCrearTicket" />
-    <asp:Label ID="lblMessage" runat="server"></asp:Label>
+        ValidationGroup="vgCrearTicket" />    
 </asp:Content>
