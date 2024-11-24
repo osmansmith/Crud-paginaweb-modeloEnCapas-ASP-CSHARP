@@ -7,3 +7,12 @@ C:\Users\OsmanSmith\source\repos\Modelo\obj\Debug\Modelo.csproj.CoreCompileInput
 C:\Users\OsmanSmith\source\repos\Modelo\obj\Debug\Modelo.csproj.Up2Date
 C:\Users\OsmanSmith\source\repos\Modelo\obj\Debug\Modelo.dll
 C:\Users\OsmanSmith\source\repos\Modelo\obj\Debug\Modelo.pdb
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\bin\Debug\Modelo.dll
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\bin\Debug\Modelo.pdb
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\bin\Debug\Datos.dll
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\bin\Debug\Datos.pdb
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\obj\Debug\Modelo.csproj.Up2Date
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\obj\Debug\Modelo.dll
+C:\Users\OsmanSmith\Desktop\Peces\Crud-paginaweb-modeloEnCapas-ASP-CSHARP\Modelo\obj\Debug\Modelo.pdb
