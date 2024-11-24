@@ -137,7 +137,7 @@
                             Text="*"
                             ControlToValidate="txtDescripcion"
                             ValidationGroup="vgCrearTicket"
-                            ErrorMessage="Nombre es obligatorio" />
+                            ErrorMessage="Descripción es obligatorio" />
                         <asp:CustomValidator 
                             ID="cvMinLenDescripcion"
                             Text="*"
