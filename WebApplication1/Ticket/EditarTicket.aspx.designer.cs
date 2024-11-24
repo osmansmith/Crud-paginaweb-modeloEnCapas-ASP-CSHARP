@@ -168,13 +168,13 @@ namespace WebApplication1.Ticket
         protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
 
         /// <summary>
-        /// Control lblProducto.
+        /// Control lblProductoValue.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblProducto;
+        protected global::System.Web.UI.WebControls.Label lblProductoValue;
 
         /// <summary>
         /// Control txtProductoValue.
@@ -204,13 +204,13 @@ namespace WebApplication1.Ticket
         protected global::System.Web.UI.WebControls.CustomValidator cvMinLenProductoValue;
 
         /// <summary>
-        /// Control lblDescripcion.
+        /// Control lblDescripcionValue.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescripcion;
+        protected global::System.Web.UI.WebControls.Label lblDescripcionValue;
 
         /// <summary>
         /// Control txtDescripcionValue.
@@ -231,13 +231,13 @@ namespace WebApplication1.Ticket
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDescripcionValue;
 
         /// <summary>
-        /// Control cvMinLenDescripcion.
+        /// Control cvMinLenDescripcionValue.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CustomValidator cvMinLenDescripcion;
+        protected global::System.Web.UI.WebControls.CustomValidator cvMinLenDescripcionValue;
 
         /// <summary>
         /// Control lblEstado.

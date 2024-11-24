@@ -45,18 +45,16 @@
                  ControlToValidate="txtEmailValue"
                  ValidationGroup="vgActualizarTicket"
                  ErrorMessage="Email es obligatorio" />
-             <asp:RegularExpressionValidator 
-                 ID="revEmail" 
-                 runat="server" 
+             <asp:RegularExpressionValidator ID="revEmail" runat="server"
                  Text="*"
-                 ControlToValidate="txtEmailValue"
-                 ValidationGroup="vgActualizarTicket"
-                 ValidatorExpression="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
-                 ErrorMessage="Email no tiene el formato esperado" />
+        ControlToValidate="txtEmailValue"
+    ValidationGroup="vgActualizarTicket"
+        ErrorMessage="Correo invalido,ej: nombre@ejemplo.com"
+        ValidationExpression="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" />
          </td>
      </tr>
      <tr>
-         <td><asp:Label ID="lblProducto" runat="server" Text="Producto"></asp:Label></td>
+         <td><asp:Label ID="lblProductoValue" runat="server" Text="Producto"></asp:Label></td>
          <td><asp:TextBox ID="txtProductoValue" AutoPostBack="true" runat="server"></asp:TextBox></td>
          <td>
              <asp:RequiredFieldValidator 
@@ -77,7 +75,7 @@
          </td>
      </tr>
       <tr>
-          <td><asp:Label ID="lblDescripcion" runat="server" Text="Descripción"></asp:Label></td>
+          <td><asp:Label ID="lblDescripcionValue" runat="server" Text="Descripción"></asp:Label></td>
           <td><asp:TextBox ID="txtDescripcionValue" AutoPostBack="true" runat="server"></asp:TextBox></td>
           <td>
               <asp:RequiredFieldValidator 
@@ -88,10 +86,10 @@
                  ValidationGroup="vgActualizarTicket"
                  ErrorMessage="Descripción es obligatorio" />
              <asp:CustomValidator 
-                 ID="cvMinLenDescripcion"
+                 ID="cvMinLenDescripcionValue"
                  Text="*"
                  runat="server"
-                 ControlToValidate="txtDescripcion"
+                 ControlToValidate="txtDescripcionValue"
                  OnServerValidate="cvMinLenDescripcionValue_ServerValidate" 
                  ValidationGroup="vgActualizarTicket"
                  ErrorMessage="Descripción debe tener al menos 10 caracteres de largo" />

@@ -87,7 +87,7 @@ namespace Modelo
             res.Producto = producto;
             res.Descripcion = descripcion;
 
-            return $"El ticket con id : {id} {telefono} {email} {producto} {descripcion}   ha sido actualizado exitosamente";
+            return $"El ticket con id : {id} ha sido actualizado exitosamente";
 
         }
         public static string Delete(string Id) 
